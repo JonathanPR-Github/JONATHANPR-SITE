@@ -1,0 +1,745 @@
+/* HEADING for tekst types */
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: xx-large;
+}
+
+h2 {
+    font-family: 'Outfit', sans-serif;;
+    font-size: xx-large;
+}
+
+h3 {
+    font-family: 'Red Hat Display', sans-serif;;
+    font-size: xx-large;
+}
+
+h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+}
+
+h5 {
+    font-family: 'Outfit', sans-serif;;
+    font-size: 230%;
+}
+
+.toptext01 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 150px;
+}
+
+.toptext01 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 150px;
+}
+
+/* BOXDIVS used for block css */
+
+.boxdiv { /* Grouped togheter with NAVBOX */
+    background-color: rgb(204, 169, 88);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(images/hazardstrip001a.jpg);
+    background-size: contain;
+    height: 80px;
+    box-shadow: inset rgb(0, 0, 0) 0px 0px 20px;
+
+}
+
+.boxdiv2 {
+    background-color: #383735;
+    height: 1000px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+}
+
+.boxdiv2_intro_text {
+  position: absolute;
+  left: 5%;
+  color: rgb(204, 169, 88);
+  -webkit-text-stroke-width: 4px;
+  -webkit-text-stroke-color: #383735;
+
+}
+
+.boxdiv3 {
+    background-color: rgb(204, 169, 88);
+    height: 100px;
+    background-image: url(images/hazardstrip001a.jpg);
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: inset rgb(0, 0, 0) 0px 0px 20px;
+}
+
+.boxdiv3_blender {
+  background-color: rgb(204, 169, 88);
+  height: 100px;
+  background-image: url(images/hazardstrip001a.jpg);
+  background-size: contain;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  box-shadow: inset rgb(0, 0, 0) 0px 0px 20px;
+}
+
+.boxdiv4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.boxdiv4-dustgrowl {
+    display: flex;
+    align-items: center;
+}
+
+.boxdiv4-dustgrowl_02 {
+    display: flex;
+    align-items: center;
+}
+
+
+
+/* Hvis du skal ha flere objekter ini hverandre ha den forrige objecten ha en display flex */
+.boxdiv5 {
+    background-color: rgb(204, 169, 88);
+    width: 45vw;
+    height: 500px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid;
+    border-color: white;
+    border-width: 10px;
+
+    background-image: url(gifs/gif3.gif);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    
+    margin-top: 50px;
+    margin-bottom: 50px;
+    box-shadow: rgb(0, 0, 0) 0px 0px 20px 2px;
+    
+}
+
+.boxdiv5_02 {
+    background-color: rgb(204, 169, 88);
+    width: 45vw;
+    height: 500px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid;
+    border-color: white;
+    border-width: 10px;
+
+    background-image: url(gifs/gif2.gif);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+    box-shadow: rgb(0, 0, 0) 0px 0px 20px 2px;
+
+}
+
+.boxdiv5-dustgrowl {
+    background-color: rgb(204, 169, 88);
+    width: 35vw;
+    height: 600px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid;
+    border-color: white;
+    border-width: 10px;
+
+    background-image: url(images/dev_texture.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+  
+}
+
+.boxdiv5-dustgrowl_section01 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  
+}
+
+.boxdiv5-dustgrowl_02 {
+    background-color: rgb(204, 169, 88);
+    color:  #383735;
+    width: 50vw;
+    height: 350px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid;
+    border-color: white;
+    border-width: 10px;
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+    box-shadow: inset rgb(0, 0, 0) 0px 0px 20px;
+
+
+}
+
+.boxdiv5_blender {
+  background-color: rgb(204, 169, 88);
+  width: 45vw;
+  height: 500px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-image: url(gifs/gif3.gif);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  
+  margin-top: 50px;
+  margin-bottom: 50px;
+  box-shadow: rgb(0, 0, 0) 0px 0px 20px 2px;
+  
+}
+
+.boxdiv5_blender02 {
+  background-color: rgb(204, 169, 88);
+  width: 25vw;
+  height: 500px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid;
+  border-color: white;
+  border-width: 10px;
+
+  background-image: url(gifs/gif2.gif);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+
+  margin-top: 50px;
+  margin-bottom: 50px;
+  box-shadow: rgb(0, 0, 0) 0px 0px 20px 2px;
+
+}
+
+.boxdiv5_blender_gallery01 {
+  background-color: rgb(204, 169, 88);
+  width: 25vw;
+  height: 500px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid;
+  border-color: white;
+  border-width: 10px;
+
+  background-image: url(images/dev_texture.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+
+  margin-top: 50px;
+  margin-bottom: 50px;
+  box-shadow: inset rgb(0, 0, 0) 0px 0px 20px 2px;
+
+}
+
+/* Hvis du skal ha flere objekter ini hverandre ha den forrige objecten ha en display flex */
+.boxdiv6 {
+    background-color: white;
+    width: 25vw;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxdiv7 {
+    background-color: rgb(204, 169, 88);
+    color:  #383735;
+    width: 24vw;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    border: solid;
+    border-color: white;
+    border-width: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    box-shadow: rgb(0, 0, 0) 10px 10px 20px 0px;
+}
+
+.boxdiv7_blender {
+  background-color: rgb(232, 125, 13);
+  color:  #383735;
+
+  display: flex;
+  justify-content: center;
+  position: relative;
+
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+  text-align: center;
+  box-shadow: rgb(0, 0, 0) 0px 0px 20px 2px;
+
+  width: 24vw;
+
+}
+
+.boxdiv7_blender02 {
+  background-color: rgb(232, 125, 13);
+  color:  #383735;
+  width: 24vw;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  box-shadow: rgb(0, 0, 0) 0px 0px 20px 2px;
+}
+
+.boxdiv8 {
+    background-color: #383735;
+    width: 34vw;
+    height: 580px;
+    border-radius: 50px;
+    background-image: url(gifs/18AC.gif);
+}
+
+.boxdiv9 {
+    background-color: rgb(204, 169, 88);
+    height: 1000px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* Hvis du skal ha flere objekter ini hverandre ha den forrige objecten ha en display flex */
+.boxdiv10 {
+    background-color: white;
+    width: 35vw;
+    height: 600px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* TOPBUTTONS old use for displaying button icons (use as reference) */
+
+.topbutton01 {
+ 
+ border-style: solid;
+ text-decoration: none;
+ color: rgb(255, 255, 255);
+ border-color: white;
+ background-color: #383735;
+ font-family: 'Oswald', sans-serif;
+ font-size: xx-large;
+ padding: 10px;
+ border: solid;
+ border-color: white;
+ border-width: 5px;
+}
+
+.topbutton02 {
+ 
+  border-style: solid;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  border-color: white;
+  background-color: #383735;
+  font-family: 'Oswald', sans-serif;
+  font-size: xx-large;
+  padding: 10px;
+
+  border: solid;
+  border-color: white;
+  border-width: 5px;
+  border-radius: 20px;
+
+  height: 80px;
+  width: 250px;
+  position: absolute;
+  top: -40px;
+ }
+
+.topbutton04 { /* This is not in use */
+    position: relative;
+    right: 50px;
+}
+
+/* IMG's used for scaling and setting images */
+
+.img01 {
+    height: 50px;
+    width: 50px;
+}
+
+.slideshow_image01 {
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+/* NAV boxes (used for grouping togheter the first section with boxdiv1 */
+
+.navbox1{
+  width: 40%;
+  display: flex;
+  justify-content: center;
+}
+
+.navbox2{
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+  }
+
+.navbox3{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .navbox4{
+    position: fixed;
+    z-index: 1;
+  }
+
+.navbox1, .navbox2, .navbox3,.navbox4{  /* Grouped NAV boxes waiting for use */
+
+  }
+
+     /* FLEX used for grouping */
+  .flex01{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .flex02{
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .flex03{
+    display: flex;
+    padding-top: 50px;
+  }
+
+  .flex04{
+    display: flex;
+  }
+  
+  .background-color01 {
+    background-color: #383735;
+    background-image: url(images/vector_hole01.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.background-color01_alt {
+  background-color: #383735;
+  background-image: url(images/vector_low_poly_hole_half2.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.background-color_gray {
+  background-color: #383735;
+}
+
+  .background-color02 {
+    background-color: #383735;
+    background-image: url(images/dustgrowl_background.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    
+  }
+
+  .background-color03 {
+    background-color: #383735;
+    background-image: url(images/stage2_screenshot.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    
+  }
+
+  .background-color04 {
+    background-color: #383735;
+    background-image: url(images/dev_texture.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    
+  }
+
+/* Number text (1/3 etc) */
+.numbertext03 {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot02 {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active02, .dot02:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade02 {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+/* SCROLLBAR */
+
+/* width */
+  ::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgb(204, 169, 88);
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #383735;
+  border: solid;
+  border-color: white;
+  border-width: 2px;
+  border-radius: 15px;
+  
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+ /* VIDEOS for videos */
+
+.videos01 {
+  object-fit: cover;
+}
+
+/* SLIDESHOW02 */
+
+body {
+    font-family: Arial;
+    margin: 0;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  img {
+    vertical-align: middle;
+  }
+  
+  /* Position the image container (needed to position the left and right arrows) */
+  .container {
+    position: relative;
+    
+    }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+    
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    border-radius: 50px;
+    transition: 0.6s ease;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 350px;
+    border-radius: 3px 0 0 3px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .prev {
+    left: 350px;
+    border-radius: 3px 0 0 3px;
+    display: flex;
+    justify-content: center;
+  }
+
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-family: 'Oswald', sans-serif;
+    font-size: 27px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 60px;
+  }
+
+  .numbertext02 {
+    color: #383735;
+    font-family: 'Oswald', sans-serif;
+    font-size: 27px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 60px;
+  }
+  
+  /* Container for image text */
+  .caption-container {
+    text-align: center;
+    background-color: rgb(204, 169, 88);
+    padding: 2px 16px;
+    color: #383735;
+    font-family: 'Oswald', sans-serif;
+    font-size: 130%;
+
+    border-bottom: 5px solid;
+    border-top: 5px solid;
+    border-color: white;
+    box-shadow: inset rgb(0, 0, 0) 0px 0px 4px 2px;
+
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  
+  }
+  
+  /* Six columns side by side */
+  .column {
+    float: left;
+    width: 16.66%;
+    
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+
+  .buttondisplay01 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .fade {
+    animation-name: fade;
+    animation-duration: 0.5s;
+  }
+
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+    border-radius: 50px
+  }
+
+  /* SCROLLBAR */
+
+  /* width */
+    ::-webkit-scrollbar {
+    width: 15px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: rgb(204, 169, 88);
+    box-shadow: inset rgb(0, 0, 0) 0px 0px 8px 1px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #383735;
+    border: solid;
+    border-color: white;
+    border-width: 2px;
+    border-radius: 15px;
+    
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+   /* VIDEOS for videos */
+  .videos01 {
+    object-fit: cover;
+  }
+
+
