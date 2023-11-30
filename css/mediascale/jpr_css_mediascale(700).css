@@ -1,0 +1,6 @@
+@media screen and (max-width: 768px) {
+  .intro_tekst {
+    font-family: "Oswald", sans-serif;
+    font-size: 80px;
+  }
+}

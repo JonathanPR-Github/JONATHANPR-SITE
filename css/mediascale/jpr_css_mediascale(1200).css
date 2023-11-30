@@ -1,0 +1,220 @@
+@media only screen and (max-width: 1221px) {
+
+    /* FIXED BUTTON */
+  
+    .fixed_return {
+      display: none;
+  }
+  
+  
+    /* INTRO */
+  
+    .intro_tekst01 {
+      font-family: "Oswald", sans-serif;
+      font-size: 30px;
+      
+    }
+  
+    .intro_tekst {
+      font-family: "Oswald", sans-serif;
+      font-size: 40px;
+    }
+  
+    .boxdiv_nav_description {
+      padding: 50px;
+      border-radius: 20px;
+    }
+  
+    .nav-containter_intro_tekst {
+      position: absolute;
+      left: 5%;
+      color: rgb(204, 169, 88);
+      -webkit-text-stroke-width: 2px;
+      -webkit-text-stroke-color: #383735;
+    }
+  
+    .button_container_intro02 {
+      display: none;
+    }
+
+    .boxdiv_video_image01, .boxdiv_video_image02 {
+      display: none;
+   }
+
+   .boxdiv_nav_description {
+    width: 100vw;
+}
+
+.boxdiv_nav_description {
+  box-shadow: inset rgb(0, 0, 0) 0px 0px 20px;
+}
+
+
+  
+    /* DUSTGROWL */
+  
+    .dustgrowl_logo {
+      height:  100px;
+      width: 272px;
+    }
+  
+    .dustgrowl_buttons{
+      width: 50px;
+      height: 50px;
+    }
+  
+    .next_gameplay {
+      right: 0px;
+      border-radius: 3px 0 0 3px;
+  }
+  
+    .prev_gameplay {
+    left: 0px;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  .dustgrowl_tekst01 {
+    font-family: "Oswald", sans-serif;
+    font-size: 30px;
+    padding: 20px;
+  }
+  
+  .boxdiv_dustgrowl {
+   width: auto;
+   height: auto;
+  }
+  
+  .next {
+    right: 0px;
+  }
+  
+  .prev {
+    left: 0px;
+  }
+  
+  .prev, .next {
+    top: 35%;
+  }
+  
+  .row{
+    display: none;
+  }
+  
+  .dustgrowl_button_size{
+    width: 50px;
+    height: 50px;
+  }
+  
+  .dustgrowl_slideshow_image {
+    height: 350px;
+    width: 100vw;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  
+  .numbertext {
+    color: #f2f2f2;
+    font-family: "Oswald", sans-serif;
+    font-size: 27px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 30px;
+    left: 100px;
+  }
+  
+  .numbertext02 {
+    color: #383735;
+    font-family: "Oswald", sans-serif;
+    font-size: 27px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 30px;
+    left: 100px;
+  }
+  
+  /* BLENDER */
+  
+  .blender-logo-scale{
+    height: 100px;
+    width: 282px;
+  }
+    
+  
+  .blender_boxdiv_info {
+    width: auto;
+  }
+  
+  .flex_blender01{
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .boxdiv_blender_gallerybox {
+    background-color: rgb(204, 169, 88);
+    width: auto;
+    height: 280px
+  }
+
+  .videos01 {
+    display: none;
+}
+
+.blender_boxdiv_loop {
+ display: none;
+}
+  
+  /* VIDEO */
+  
+  .boxdiv_video_text {
+    width: 100vw;
+  }
+  
+  .boxdiv_video_text {
+    padding: 30px;
+  }
+  
+  .row_video{
+    display: none;
+  }
+  
+  .video_display01 {
+    width: 80vw;
+    height: 250px;
+  }
+  
+  .next_video {
+    right: 0px;
+  }
+  
+  .video_button01{
+    height: 50px;
+    width: 50px;
+  }
+  
+  /* CONTACT */
+  
+  .contact-button01{
+    height: 50px;
+    width: 50px;
+  }
+  
+  .contact-button02{
+    height: 50px;
+    width: 60px;
+  }
+
+  .video_logo {
+    height: 150px;
+    width: 180px;
+  }
+
+   /* GRAPICH */
+  
+   .grapich_logo {
+    height: 130px;
+    width: 150px;
+  }
+
+  }

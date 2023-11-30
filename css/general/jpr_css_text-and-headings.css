@@ -1,0 +1,29 @@
+h1 {
+    font-family: "Oswald", sans-serif;
+    font-size: xx-large;
+  }
+  
+  h2 {
+    font-family: "Outfit", sans-serif;
+    font-size: xx-large;
+  }
+  
+  h3 {
+    font-family: "Red Hat Display", sans-serif;
+    font-size: xx-large;
+  }
+  
+  h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+  }
+  
+  h5 {
+    font-family: "Outfit", sans-serif;
+    font-size: 230%;
+  }
+  
+  .toptext01 {
+    font-family: "Oswald", sans-serif;
+    font-size: 150px;
+  }

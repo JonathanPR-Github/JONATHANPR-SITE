@@ -1,0 +1,24 @@
+.boxdiv_contact {
+    background-color: rgb(204, 169, 88);
+    height: 200px;
+
+    background-image: url(/images/vector_low_poly_hole_half2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: inset rgb(0, 0, 0) 0px 0px 20px;
+  }
+
+.contact-button01{
+  height: 100px;
+  width: 100px;
+}
+
+.contact-button02{
+  height: 100px;
+  width: 130px;
+}

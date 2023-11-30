@@ -1,0 +1,102 @@
+.navbox_dustgrowl {
+  background-color: rgb(204, 169, 88);
+  height: 100px;
+  background-image: url(/images/hazardstrip001a.jpg);
+  background-size: contain;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  box-shadow: inset rgb(0, 0, 0) 0px 0px 20px;
+}
+
+
+.dustgrowl_hyperlink01{
+  display: flex;
+  justify-content: center;
+}
+
+.dustgrowl_logo {
+  height:  150px;
+  width: 512px;
+}
+
+.background-color_dustgrowl01 {
+  background-color: #383735;
+  background-image: url(/images/dustgrowl_background.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.dustgrowl_sl_margin {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.background-color_dustgrowl02 {
+  background-color: #383735;
+  background-image: url(/images/vector_low_poly_hole_half2.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.boxdiv_dustgrowl_container {
+  display: flex;
+  align-items: center;
+}
+
+.boxdiv_dustgrowl {
+  background-color: rgb(204, 169, 88);
+  color: #383735;
+  width: 50vw;
+  height: 350px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid;
+  border-color: white;
+  border-width: 10px;
+
+  margin-top: 50px;
+  margin-bottom: 50px;
+  box-shadow: inset rgb(0, 0, 0) 0px 0px 20px;
+}
+
+.background-color_dustgrowl03 {
+  background-color: #383735;
+  background-image: url(/images/stage2_screenshot.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.dustgrowl_buttons{
+  width: 100px;
+  height: 100px;
+}
+
+.dustgrowl_tekst01 {
+  font-family: "Oswald", sans-serif;
+  font-size: xx-large;
+  text-align: center;
+}
+
+.dustgrowl_button_size {
+  width: 100px;
+  height: 100px;
+}
+
+.dustgrowl_slideshow_image {
+  height: 750px;
+  width: 55vw;
+
+  border: solid;
+  border-color: white;
+  border-width: 10px;
+  border-radius: 50px;
+
+  margin-bottom: 50px;
+  margin-top: 50px;
+
+  justify-content: center;
+}

@@ -1,0 +1,17 @@
+.flex01 {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .flex02 {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .flex03 {
+    display: flex;
+    padding-top: 50px;
+  }
+  
+  .flex04 {
+    display: flex;
+}
