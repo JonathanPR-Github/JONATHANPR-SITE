@@ -68,22 +68,22 @@ img {
 /* Number text (1/3 etc) */
 .numbertext {
   color: #f2f2f2;
-  font-family: "Oswald", sans-serif;
-  font-size: 27px;
+  font-size: 12px;
   padding: 8px 12px;
   position: absolute;
-  top: 60px;
-  left: 915px;
+  top: 80px;
+  font-family: "Oswald", sans-serif;
+  font-size: 27px;
 }
 
 .numbertext02 {
   color: #383735;
-  font-family: "Oswald", sans-serif;
-  font-size: 27px;
+  font-size: 12px;
   padding: 8px 12px;
   position: absolute;
-  top: 60px;
-  left: 915px;
+  top: 80px;
+  font-family: "Oswald", sans-serif;
+  font-size: 27px
 }
 
 /* Container for image text */
@@ -142,4 +142,9 @@ img {
 .next:hover {
   background-color: rgba(0, 0, 0, 0.8);
   border-radius: 50px;
+}
+
+.slideshow_image01{
+  display: flex;
+  justify-content: center;
 }

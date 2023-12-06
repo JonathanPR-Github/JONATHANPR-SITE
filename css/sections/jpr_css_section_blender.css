@@ -117,7 +117,9 @@
 }
 
 .blender_tekst01 {
-  font-family: "Oswald", sans-serif;
+  font-family: "Outfit", sans-serif;
   font-size: xx-large;
   text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
 }

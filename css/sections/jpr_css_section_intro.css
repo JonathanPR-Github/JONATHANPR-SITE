@@ -24,6 +24,7 @@
 .nav-containter_intro_tekst {
     position: absolute;
     left: 5%;
+    top: 20%;
     color: rgb(204, 169, 88);
     -webkit-text-stroke-width: 4px;
     -webkit-text-stroke-color: #383735;
@@ -42,9 +43,33 @@
   }
 
 
-.intro_loop_video {
+.intro_loop_video { /* REDUNTENDT (USED WITH OLD INTRO) */
     object-fit: cover;
   }
+
+.boxdiv_nav_profileimage {
+    background-color: rgb(204, 169, 88);
+    color: #383735;
+    width: 30vw;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    border: solid;
+    border-color: white;
+    border-width: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: rgb(0, 0, 0) 10px 10px 20px 0px;
+  }
+
+  .boxdiv_innerprofile{
+    width: 70%;
+  
+  }
+
 
 .navbar_intro {
     background-color: rgb(204, 169, 88);
@@ -62,6 +87,7 @@
     display: flex;
     justify-content: space-between;
     width: 90%;
+    
   }
 
 .background-color_intro {
@@ -120,7 +146,7 @@
   .boxdiv_nav_description {
     background-color: rgb(204, 169, 88);
     color: #383735;
-    width: 24vw;
+    width: 74vw;
     border-radius: 50px;
     display: flex;
     justify-content: center;
@@ -135,6 +161,7 @@
     box-shadow: rgb(0, 0, 0) 10px 10px 20px 0px;
   }
   
+  
   .topbutton01 {
     border-style: solid;
     text-decoration: none;
@@ -143,13 +170,48 @@
     background-color: #383735;
     font-family: "Oswald", sans-serif;
     font-size: xx-large;
+
     padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    
     border: solid;
     border-color: white;
     border-width: 5px;
+    box-shadow: inset rgb(0, 0, 0) 0px 0px 20px;
   }
 
 .intro_tekst01 {
-    font-family: "Oswald", sans-serif;
+    font-family: "Outfit", sans-serif;
     font-size: xx-large;
   }
+
+.intro_tekst02 {
+    font-family: "Oswald", sans-serif;
+    font-size: 40px;
+  }
+
+  .boxdiv_contact_intro {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.background-color_intro_profile{
+    background-image: url(/images/vector_low_poly_gray02.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.profilepicture_intro{
+  width: 500px;
+  height: 500px;
+  box-shadow: rgb(0, 0, 0) 0px 0px 20px;
+  
+  border: solid;
+  border-color: white;
+  border-width: 10px;
+  border-radius: 20px;
+}

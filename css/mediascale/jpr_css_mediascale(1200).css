@@ -10,14 +10,11 @@
     /* INTRO */
   
     .intro_tekst01 {
-      font-family: "Oswald", sans-serif;
       font-size: 30px;
-      
     }
   
     .intro_tekst {
-      font-family: "Oswald", sans-serif;
-      font-size: 40px;
+      font-size: 80px;
     }
   
     .boxdiv_nav_description {
@@ -26,14 +23,13 @@
     }
   
     .nav-containter_intro_tekst {
-      position: absolute;
-      left: 5%;
+      top: 10%;
       color: rgb(204, 169, 88);
       -webkit-text-stroke-width: 2px;
       -webkit-text-stroke-color: #383735;
     }
   
-    .button_container_intro02 {
+    .topbutton01 {
       display: none;
     }
 
@@ -49,8 +45,10 @@
   box-shadow: inset rgb(0, 0, 0) 0px 0px 20px;
 }
 
+.nav_container_intro {
+  height: 700px;
+}
 
-  
     /* DUSTGROWL */
   
     .dustgrowl_logo {
@@ -74,7 +72,6 @@
   }
   
   .dustgrowl_tekst01 {
-    font-family: "Oswald", sans-serif;
     font-size: 30px;
     padding: 20px;
   }
@@ -114,22 +111,23 @@
   
   .numbertext {
     color: #f2f2f2;
-    font-family: "Oswald", sans-serif;
     font-size: 27px;
     padding: 8px 12px;
     position: absolute;
     top: 30px;
-    left: 100px;
   }
   
   .numbertext02 {
     color: #383735;
-    font-family: "Oswald", sans-serif;
     font-size: 27px;
     padding: 8px 12px;
     position: absolute;
     top: 30px;
-    left: 100px;
+  }
+
+  .gameplay_slides {
+    height: 300px;
+    width: 100%;
   }
   
   /* BLENDER */
@@ -192,6 +190,26 @@
     height: 50px;
     width: 50px;
   }
+
+  .video_tekst01 {
+    font-size: 28px;
+  }
+
+  /* GRAPICH */
+  
+    .grapich_logo {
+      height: 130px;
+      width: 150px;
+  }
+
+  .boxdiv_grapich_text {
+    width: 100vw;
+}
+
+.boxdiv_grapich {
+  width: 100%;
+  height: 120px;
+}
   
   /* CONTACT */
   
@@ -208,13 +226,6 @@
   .video_logo {
     height: 150px;
     width: 180px;
-  }
-
-   /* GRAPICH */
-  
-   .grapich_logo {
-    height: 130px;
-    width: 150px;
   }
 
   }

@@ -48,19 +48,17 @@
 .boxdiv_dustgrowl {
   background-color: rgb(204, 169, 88);
   color: #383735;
-  width: 50vw;
-  height: 350px;
+  width: 64vw;
   border-radius: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  position: relative;
   border: solid;
   border-color: white;
   border-width: 10px;
-
   margin-top: 50px;
   margin-bottom: 50px;
-  box-shadow: inset rgb(0, 0, 0) 0px 0px 20px;
+  text-align: center;
+  padding: 20px;
+  box-shadow: rgb(0, 0, 0) 10px 10px 20px 0px;
 }
 
 .background-color_dustgrowl03 {
@@ -76,10 +74,17 @@
 }
 
 .dustgrowl_tekst01 {
-  font-family: "Oswald", sans-serif;
+  font-family: "Outfit", sans-serif;
   font-size: xx-large;
   text-align: center;
 }
+
+.dustgrowl_tekst02 {
+  font-family: "Oswald", sans-serif;
+  font-size: 40px;
+  text-align: center;
+}
+
 
 .dustgrowl_button_size {
   width: 100px;
@@ -99,4 +104,13 @@
   margin-top: 50px;
 
   justify-content: center;
+}
+
+.gameplay_slides{
+  height: 550px;
+
+  border: solid;
+  border-radius: 50px;
+  border-width: 10px;
+  border-color: white;
 }

@@ -25,19 +25,17 @@
 .boxdiv_video_text {
   background-color: rgb(204, 169, 88);
   color: #383735;
-  width: 50vw;
-  height: 350px;
+  width: 64vw;
   border-radius: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  position: relative;
   border: solid;
   border-color: white;
   border-width: 10px;
-
   margin-top: 50px;
   margin-bottom: 50px;
-  box-shadow: inset rgb(0, 0, 0) 0px 0px 20px;
+  text-align: center;
+  padding: 20px;
+  box-shadow: rgb(0, 0, 0) 10px 10px 20px 0px;
 }
 
 .video_background-color02 {
@@ -61,4 +59,14 @@
 .video_logo {
   height: 180px;
   width: 212px;
+}
+
+.video_tekst01 {
+  font-family: "Outfit", sans-serif;
+  font-size: 30px;
+}
+
+.video_tekst02 {
+  font-family: "Oswald", sans-serif;
+  font-size: 40px;
 }

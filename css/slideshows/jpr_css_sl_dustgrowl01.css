@@ -24,12 +24,12 @@
 
 /* Position the "next button" to the right */
 .next_gameplay {
-  right: -62px;
+  right: -110px;
   border-radius: 3px 0 0 3px;
 }
 
 .prev_gameplay {
-  left: -62px;
+  left: -110px;
   border-radius: 3px 0 0 3px;
 }
 

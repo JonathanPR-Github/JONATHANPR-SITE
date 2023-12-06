@@ -1,6 +1,13 @@
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 700px) {
   .intro_tekst {
-    font-family: "Oswald", sans-serif;
-    font-size: 80px;
+    font-size: 53px;
   }
+
+  .profilepicture_intro{
+    width: 300px;
+    height: 300px;
+  }
+  
+
+
 }

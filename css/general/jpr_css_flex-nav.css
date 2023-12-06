@@ -15,3 +15,8 @@
   .flex04 {
     display: flex;
 }
+
+  .flex05 {
+  display: flex;
+  justify-content: center;
+}
