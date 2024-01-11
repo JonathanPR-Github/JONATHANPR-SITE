@@ -47,16 +47,24 @@
 
 .boxdiv_dustgrowl {
   background-color: rgb(204, 169, 88);
+  background-image: url(/images/backgroundbox02.png);
+  background-size: cover;
+  background-position: center;
+
   color: #383735;
   width: 64vw;
-  border-radius: 50px;
+
   position: relative;
+  text-align: center;
+
   border: solid;
   border-color: white;
   border-width: 10px;
+  border-radius: 50px;
+
   margin-top: 50px;
   margin-bottom: 50px;
-  text-align: center;
+
   padding: 20px;
   box-shadow: rgb(0, 0, 0) 10px 10px 20px 0px;
 }

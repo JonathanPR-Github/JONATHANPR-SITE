@@ -1,13 +1,6 @@
 
 @media only screen and (max-width: 280px) {
 
-  /* FIXED BUTTON */
-
-  .fixed_return {
-    display: none;
-}
-
-
   /* INTRO */
 
   .intro_tekst01 {
@@ -30,6 +23,11 @@
   
   .nav_container_intro {
     height: 500px;
+  }
+
+  .nav-containter_intro_tekst {
+    top: 17%;
+    color: rgb(204, 169, 88);
   }
 
   /* DUSTGROWL */

@@ -1,3 +1,45 @@
+.boxdiv_blender {
+  background-color: rgb(204, 169, 88);
+  background-image: url(/images/backgroundbox02.png);
+  background-size: cover;
+  background-position: center;
+
+  color: #383735;
+  width: 64vw;
+
+  position: relative;
+  text-align: center;
+
+  border: solid;
+  border-color: white;
+  border-width: 10px;
+  border-radius: 50px;
+
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+  padding: 20px;
+  box-shadow: rgb(0, 0, 0) 10px 10px 20px 0px;
+}
+
+.boxdiv_blender_container {
+  display: flex;
+  align-items: center;
+}
+
+.blender_tekst01_box {
+  font-family: "Outfit", sans-serif;
+  font-size: xx-large;
+  text-align: center;
+}
+
+.blender_tekst02_box {
+  font-family: "Oswald", sans-serif;
+  font-size: 40px;
+  text-align: center;
+}
+
+
 .navbox_blender {
   background-color: rgb(204, 169, 88);
   height: 100px;
@@ -19,6 +61,7 @@
 
 .blender_boxdiv {
   background-color: rgb(204, 169, 88);
+
   width: 45vw;
   height: 500px;
 
@@ -36,8 +79,6 @@
 
 .blender_boxdiv_loop {
   background-color: rgb(204, 169, 88);
-  width: 45vw;
-  height: 500px;
 
   display: flex;
   justify-content: center;
@@ -53,14 +94,21 @@
 
 .blender_boxdiv_info {
   background-color: rgb(232, 125, 13);
+  background-image: url(/images/backgroundbox03.png);
+  background-size: cover;
+  background-position: center;
+
   color: #383735;
-  width: 24vw;
+  width: auto;
+
   display: flex;
   justify-content: center;
   position: relative;
+  text-align: center;
+
   margin-top: 50px;
   margin-bottom: 50px;
-  text-align: center;
+
   box-shadow: rgb(0, 0, 0) 0px 0px 20px 2px;
 }
 
@@ -118,7 +166,7 @@
 
 .blender_tekst01 {
   font-family: "Outfit", sans-serif;
-  font-size: xx-large;
+  font-size: 28px;
   text-align: center;
   padding-left: 10px;
   padding-right: 10px;

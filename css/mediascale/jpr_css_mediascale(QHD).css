@@ -1,0 +1,10 @@
+@media screen and (max-width: 2560px) {
+
+  .nav-containter_intro_tekst {
+    position: absolute;
+    left: 5%;
+    top: 30%;
+    color: rgb(204, 169, 88);
+}
+
+}

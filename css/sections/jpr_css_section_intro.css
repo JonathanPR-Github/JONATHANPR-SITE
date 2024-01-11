@@ -1,6 +1,11 @@
-.fixed_return {
-    position: fixed;
-    z-index: 1;
+.fixed_button_size {
+  height: 80px;
+  width: 80px;
+}
+
+.fixed_buttons_margin{
+  margin-left: 80px;
+  margin-right: 80px;
 }
 
 .topbox_intro {
@@ -24,10 +29,8 @@
 .nav-containter_intro_tekst {
     position: absolute;
     left: 5%;
-    top: 20%;
+    top: 40%;
     color: rgb(204, 169, 88);
-    -webkit-text-stroke-width: 4px;
-    -webkit-text-stroke-color: #383735;
 }
 
 .nav_container_intro {
@@ -40,6 +43,17 @@
 .intro_tekst {
     font-family: "Oswald", sans-serif;
     font-size: 150px;
+    margin: 0;
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: #383735;
+  }
+
+  .intro_tekst02 {
+    font-family: "Oswald", sans-serif;
+    font-size: 50px;
+    margin: 0;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: #383735;
   }
 
 
@@ -70,24 +84,41 @@
   
   }
 
-
 .navbar_intro {
     background-color: rgb(204, 169, 88);
     height: 100px;
+    width: 100%;
+
     background-image: url(/images/hazardstrip001a.jpg);
     background-size: contain;
+
     display: flex;
-    justify-content: center;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
+
+    position: fixed;
+    z-index: 1;
+
+    box-shadow: inset rgb(0, 0, 0) 0px 0px 20px;
+  }
+
+  .navbar_intro_alt {
+    background-color: rgb(204, 169, 88);
+    height: 100px;
+    width: 100%;
+
+    background-image: url(/images/hazardstrip001a.jpg);
+    background-size: contain;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
     box-shadow: inset rgb(0, 0, 0) 0px 0px 20px;
   }
 
 .button_container_intro02 {
     display: flex;
-    justify-content: space-between;
-    width: 90%;
-    
   }
 
 .background-color_intro {
@@ -145,18 +176,27 @@
 
   .boxdiv_nav_description {
     background-color: rgb(204, 169, 88);
+    background-image: url(/images/backgroundbox02.png);
+    background-size: cover;
+    background-position: center;
+
     color: #383735;
     width: 74vw;
-    border-radius: 50px;
+
     display: flex;
     justify-content: center;
     position: relative;
+    text-align: center;
+
+
     border: solid;
     border-color: white;
     border-width: 10px;
+    border-radius: 50px;
+
     margin-top: 50px;
     margin-bottom: 50px;
-    text-align: center;
+    
     padding: 20px;
     box-shadow: rgb(0, 0, 0) 10px 10px 20px 0px;
   }
