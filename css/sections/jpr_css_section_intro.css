@@ -56,6 +56,14 @@
     -webkit-text-stroke-color: #383735;
   }
 
+  .intro_tekst03 {
+    margin-top: 2%;
+  }
+
+  .intro_tekst04 {
+    margin-bottom: 2%;
+  }
+
 
 .intro_loop_video { /* REDUNTENDT (USED WITH OLD INTRO) */
     object-fit: cover;
@@ -221,6 +229,29 @@
     box-shadow: inset rgb(0, 0, 0) 0px 0px 20px;
   }
 
+  .topbutton02 {
+    border-style: solid;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border-color: white;
+    background-color: #383735;
+    background-image: url(/images/dev_texture.png);
+    background-size: cover;
+
+    font-family: "Oswald", sans-serif;
+    font-size: 26px;
+
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+    border: solid;
+    border-color: white;
+    border-width: 3px;
+    border-radius: 10px;
+    box-shadow: inset rgb(0, 0, 0) 0px 0px 20px;
+  }
+
 .intro_tekst01 {
     font-family: "Outfit", sans-serif;
     font-size: xx-large;
@@ -254,4 +285,16 @@
   border-color: white;
   border-width: 10px;
   border-radius: 20px;
+}
+
+.teknisk01{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.linktext01{
+  color: black;
 }

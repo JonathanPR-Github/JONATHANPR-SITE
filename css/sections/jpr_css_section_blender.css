@@ -112,7 +112,26 @@
   box-shadow: rgb(0, 0, 0) 0px 0px 20px 2px;
 }
 
-.blender_section_box_text {
+.blender_section_box_text01 {
+  border-style: solid;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  border-color: white;
+  background-color: #383735;
+  font-family: "Oswald", sans-serif;
+  font-size: xx-large;
+  padding: 10px;
+
+  border: solid;
+  border-color: white;
+  border-width: 5px;
+  border-radius: 20px;
+
+  position: absolute;
+  top: -40px;
+}
+
+.blender_section_box_text02 {
   border-style: solid;
   text-decoration: none;
   color: rgb(255, 255, 255);

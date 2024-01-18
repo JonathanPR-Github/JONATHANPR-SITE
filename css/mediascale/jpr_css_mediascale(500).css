@@ -1,0 +1,19 @@
+@media screen and (max-width: 555px) {
+
+    .video_tekst02 {
+        font-size: 23px;
+        text-align: center;
+      }
+
+      .blender_section_box_text01 {
+        top: -70px;
+      }
+
+      .intro_tekst02 {
+        font-size: 19px;
+        -webkit-text-stroke-width: 0.5px;
+        -webkit-text-stroke-color: #383735;
+      }
+
+
+}
