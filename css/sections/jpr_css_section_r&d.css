@@ -1,0 +1,116 @@
+.RD_logo {
+    height: 200px;
+}
+
+.navbox_RD {
+    background-color: rgb(204, 169, 88);
+    height: 100px;
+    background-image: url(/images/hazardstrip001a.jpg);
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: inset rgb(0, 0, 0) 0px 0px 20px;
+  }
+
+  .background-color_RD02 {
+    background-color: #383735;
+    background-image: url(/images/vector_low_poly_hole_half2.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+
+  .boxdiv_RD_container {
+    display: flex;
+    align-items: center;
+  }
+
+  .boxdiv_RD {
+    background-color: rgb(204, 169, 88);
+    background-image: url(/images/backgroundbox02.png);
+    background-size: cover;
+    background-position: center;
+  
+    color: #383735;
+    width: 64vw;
+  
+    position: relative;
+    text-align: center;
+  
+    border: solid;
+    border-color: white;
+    border-width: 10px;
+    border-radius: 50px;
+  
+    margin-top: 80px;
+    margin-bottom: 50px;
+  
+    padding: 20px;
+    box-shadow: rgb(0, 0, 0) 10px 10px 20px 0px;
+  }
+
+  .RD_tekst02 {
+    font-family: "Oswald", sans-serif;
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .RD_tekst01 {
+    font-family: "Outfit", sans-serif;
+    font-size: xx-large;
+    text-align: center;
+  }
+
+  .RD_tekst_longlink {
+    font-family: "Outfit", sans-serif;
+    font-size: xx-large;
+    text-align: center;
+  }
+
+
+  .background-color_RD01 {
+    background-color: #383735;
+    background-image: url(/images/bakgrunn_startskjerm_placeholder.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+
+  .RD_sl_margin {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .RD_buttons{
+    width: 100px;
+    height: 100px;
+  }
+
+  .background-color_RD03 {
+    background-color: #383735;
+    background-image: url(/images/Rasken.PNG);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+  }
+
+  .RD_slideshow_image {
+    height: 750px;
+    width: 55vw;
+  
+    border: solid;
+    border-color: white;
+    border-width: 10px;
+    border-radius: 50px;
+  
+    margin-bottom: 50px;
+    margin-top: 50px;
+  
+    justify-content: center;
+  }
+
+  .RD_button_size {
+    width: 100px;
+    height: 100px;
+  }
+

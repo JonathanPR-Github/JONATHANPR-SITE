@@ -1,0 +1,228 @@
+.navbox_gamedev {
+    background-color: rgb(204, 169, 88);
+    height: 100px;
+    background-image: url(/images/hazardstrip001a.jpg);
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: inset rgb(0, 0, 0) 0px 0px 20px;
+  }
+
+.gamedev_logo {
+    height:  200px;
+    width: 200px;
+  }
+
+  .gamedev_logo02 {
+    height:  150px;
+    width: 456px;
+  }
+
+  .gamedev_logo03 {
+    height:  256px;
+    width: 256px;
+  }
+
+  .background-color_gamedev01 {
+    background-color: #383735;
+    background-image: url(/images/vector_low_poly_hole_half2.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+
+  .background-color_gamedev02 {
+    background-color: #383735;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+
+  .boxdiv_gamedev_container {
+    display: flex;
+    align-items: center;
+    
+  }
+
+  .boxdiv_gamedev {
+    background-color: rgb(204, 169, 88);
+    background-image: url(/images/backgroundbox02.png);
+    background-size: cover;
+    background-position: center;
+  
+    color: #383735;
+    width: 64vw;
+  
+    position: relative;
+    text-align: center;
+  
+    border: solid;
+    border-color: white;
+    border-width: 10px;
+    border-radius: 50px;
+  
+    margin-top: 80px;
+    margin-bottom: 50px;
+  
+    padding: 20px;
+    box-shadow: rgb(0, 0, 0) 10px 10px 20px 0px;
+  }
+
+  .boxdiv_gamedev_dustgrowl {
+    background-color: #383735;
+    background-image: url(/images/BACKGROUND-IMAGE02.png);
+    background-size: cover;
+    background-position: center;
+
+    transition-duration: 0.4s;
+
+    color: white;
+    width: 25vw;
+    height: 18vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  
+    border: solid;
+    border-color: white;
+    border-width: 10px;
+    border-radius: 30px;
+  
+    padding: 20px;
+    box-shadow: rgb(0, 0, 0) 10px 10px 20px 0px;
+  }
+
+  .boxdiv_gamedev_dustgrowl:hover{
+    width: 30vw;
+    height: 20vw;
+    box-shadow: rgb(0, 0, 0) 0px 0px 50px 5px;
+  }
+
+
+  .boxdiv_gamedev_RD {
+    background-color: #383735;
+    background-image: url(/images/bakgrunn_startskjerm_placeholder.png);
+    background-size: cover;
+    background-position: center;
+
+    transition-duration: 0.4s;
+
+    color: white;
+    width: 25vw;
+    height: 18vw;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  
+    border: solid;
+    border-color: white;
+    border-width: 10px;
+    border-radius: 30px;
+  
+    padding: 20px;
+    box-shadow: rgb(0, 0, 0) 10px 10px 20px 0px;
+  }
+
+  .boxdiv_gamedev_RD:hover{
+    width: 30vw;
+    height: 20vw;
+    box-shadow: rgb(0, 0, 0) 0px 0px 50px 5px;
+  }
+
+  .gamedev_tekst01 {
+    font-family: "Outfit", sans-serif;
+    font-size: xx-large;
+    text-align: center;
+  }
+
+  .gamedev_tekst02 {
+    font-family: "Oswald", sans-serif;
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .gamedev_selection_window {
+    background-color: rgb(204, 169, 88);
+    background-image: url(/images/backgroundbox02.png);
+    background-size: cover;
+    background-position: center;
+
+    color: #383735;
+    width: 100vw;
+
+    display: flex;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+
+
+    border: solid;
+    border-color: white;
+    border-width: 10px;
+
+    margin-bottom: 80px;
+    
+    padding: 20px;
+    box-shadow: rgb(0, 0, 0) 10px 10px 20px 0px;
+  }
+
+  .boxdiv_gamedev_container {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .boxdiv_gamedev_container_row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: transparent;
+    border: none;
+
+    text-decoration: none;
+  }
+
+  .gamedev_section_box_text01 {
+    border-style: solid;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border-color: white;
+    background-color: #383735;
+    font-family: "Oswald", sans-serif;
+    font-size: xx-large;
+
+    padding: 10px;
+
+    margin-bottom: 3%;
+
+    border: solid;
+    border-color: white;
+    border-width: 5px;
+    border-radius: 20px;
+  
+    height: 80px;
+    width: 250px;
+  }
+
+  .gamedev_section_box_text02 {
+    border-style: solid;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border-color: white;
+    background-color: #383735;
+    font-family: "Oswald", sans-serif;
+    font-size: xx-large;
+    padding: 10px;
+  
+    border: solid;
+    border-color: white;
+    border-width: 5px;
+    border-radius: 20px;
+  
+    height: 80px;
+    width: 250px;
+  }

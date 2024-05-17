@@ -8,6 +8,67 @@
     height: 300px;
   }
   
+        /* GAMEDEV */
+
+        .gamedev_logo02 {
+          height:  30px;
+          width: 120px;
+        }
+      
+        .gamedev_logo03 {
+          height:  60px;
+          width: 60px;
+        }
+
+        .gamedev_section_box_text01 {
+
+          height: 80px;
+          width: 100px;
+
+          display: flex;
+          text-align: center;
+          align-items: center;
+          justify-content: center;
+
+          margin-bottom: 10%;
+
+          font-size: 15px;
+          text-align: center;
+
+        }
+
+        .boxdiv_gamedev_dustgrowl {
+
+          width: 25vw;
+          height: 18vw;
+      
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          text-align: center;
+        
+          border: solid;
+          border-color: white;
+          border-width: 5px;
+          border-radius: 20px;
+        }
+      
+        .boxdiv_gamedev_RD {
+
+          width: 25vw;
+          height: 18vw;
+        
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          text-align: center;
+        
+          border: solid;
+          border-color: white;
+          border-width: 5px;
+          border-radius: 20px;
+        
+        }
 
 
 }

@@ -13,12 +13,16 @@
     <link rel="stylesheet" href="css/general/jpr_css.css">
 
     <!-- CSS SLIDESHOW LINK -->
+    <link rel="stylesheet" href="css/slideshows/jpr_css_sl_R&D01.css">
+    <link rel="stylesheet" href="css/slideshows/jpr_css_sl_R&D02.css">
     <link rel="stylesheet" href="css/slideshows/jpr_css_sl_dustgrowl01.css">
     <link rel="stylesheet" href="css/slideshows/jpr_css_sl_dustgrowl02.css">
     <link rel="stylesheet" href="css/slideshows/jpr_css_sl_video.css">
 
     <!-- SECTION CSS LINK -->
     <link rel="stylesheet" href="css/sections/jpr_css_section_blender.css">
+    <link rel="stylesheet" href="css/sections/jpr_css_section_game_selection.css">
+    <link rel="stylesheet" href="css/sections/jpr_css_section_r&d.css">
     <link rel="stylesheet" href="css/sections/jpr_css_section_dustgrowl.css">
     <link rel="stylesheet" href="css/sections/jpr_css_section_grafisk.css">
     <link rel="stylesheet" href="css/sections/jpr_css_section_intro.css">
@@ -26,6 +30,9 @@
     <link rel="stylesheet" href="css/sections/jpr_css_section_contact.css">
 
     <!-- SLIDESHOW JS LINK -->
+    <script src="js/js_RnD/jpr_js_RnD01.js"></script>
+    <script src="js/js_RnD/jpr_js_RnD02.js"></script>
+    <script src="js/js_gamedev/jpr_js_gamedev01.js"></script>
     <script src="js/js_dustgrowl/jpr_js_dustgrowl01.js"></script>
     <script src="js/js_dustgrowl/jpr_js_dustgrowl02.js"></script>
     <script src="js/js_sectionvid/jpr_js_sectionvideo.js"></script>
@@ -74,11 +81,11 @@
       <div class="button_container_intro02">
         <a href="#" class="topbutton01">HJEM</a>
         <a href="#ABOUTME_ID" class="topbutton01 fixed_buttons_margin">OM MEG</a>
-        <a href="#DUSTGROWL_ID" class="topbutton01">DUSTGROWL</a>
+        <a href="#GAMEDEV_ID" class="topbutton01">SPILL UTVIKLING</a>
         <a href="#BLENDER_ID" class="topbutton01 fixed_buttons_margin">BLENDER</a>
         <a href="#VIDEO-ID" class="topbutton01">VIDEO REDEGERING</a>
         <a href="#GRAPICH-ID" class="topbutton01 fixed_buttons_margin">GRAFISK</a>
-        <a href="index_english.html"><img src="/icons/blare_icon_thick_lang_uk.png" alt="" style="width: 80px; height: 80px; display: none;"></a>
+        <a href="index_english.html"><img src="/icons/blare_icon_thick_lang_uk.png" alt="" style="width: 80px; height: 80px;"></a>
       </div>
       
     </div>
@@ -87,9 +94,13 @@
 
     <div class="nav-containter_intro_tekst">
       <p class="intro_tekst">VELKOMMEN TIL SIDEN MIN!</p>
+
+      <div class="info_box_text01">
       <p class="intro_tekst02">Denne siden ble lagd med HTML/CSS/JS av meg selv, Jonathan Reppen</p>
-      <p class="intro_tekst02">Bakgrunnsbilder og Videoer er lagd og publisert av meg selv </p>
-      <p class="intro_tekst02">Velkommen til mitt lille spillunivers. Jeg heter Jonathan Reppen og jeg har et lidenskapelig forhold til spill og spillutvikling. Denne siden og videoer som ligger her, er lagd og publisert av meg.</p>
+      <p class="intro_tekst02">Velkommen til mitt lille spillunivers. Jeg heter Jonathan Reppen og jeg har et lidenskapelig forhold til spill og spillutvikling. 
+        <br>
+        Denne siden og videoene som ligger her, er lagd og publisert av meg.</p>
+      </div>
     </div>
     
 
@@ -107,8 +118,8 @@
       <div class="navbar_intro_alt" id="ABOUTME_ID"></div>
 
     <div class="boxdiv_contact_intro">
-      <a href="https://www.linkedin.com/in/jonathan-reppen-0915642a0/" target="_blank"><img src="icons/linkdin-custom-white-alt.png" alt="image of an image" class="contact-button01"></a>
-      <a href="" target="_blank"><img src="icons/mail-icon-white-alt.png" alt="image of an image" class="contact-button01"></a>
+      <a href="https://no.linkedin.com/in/jonathan-erik-reppen-0915642a0/en?trk=people-guest_people_search-card" target="_blank"><img src="icons/linkdin-custom-white-alt.png" alt="image of an image" class="contact-button01"></a>
+      <a href="mailto: jonathan.reppen@outlook.com" target="_blank"><img src="icons/mail-icon-white-alt.png" alt="image of an image" class="contact-button01"></a>
       <a href="https://github.com/JonathanPR-Github?tab=repositories" target="_blank"><img src="icons/github-logo-custom-white-alt.png" alt="image of an image" class="contact-button01""></a>
       <a href="https://www.youtube.com/@jonathnpr5934/videos" target="_blank"><img src="icons/youtube-icon-custom-white-alt.png" alt="image of an image" class="contact-button02"></a>
     </div>
@@ -124,7 +135,7 @@
         <p class="intro_tekst01">
           Jeg heter Jonathan og jeg har vært opptatt av spill siden jeg var 5 år gammel. Jeg startet å spille Crash bandicoot.
           og senere har det blitt mange spill i ulike sjangre - som Team Fortress 2. Dette har inspirert meg til å starte å modifisere spill.
-          Se her (lenke) for mer info. Jeg ønsker å bli en spill- eller front end-utvikler. Jeg er lærevillig og trives når jeg stadig kan lære noe nytt.
+          Jeg ønsker å bli en spill- eller front end-utvikler. Jeg er lærevillig og trives når jeg stadig kan lære noe nytt.
           Det er også bakgrunnen for at jeg har valgt å utvikle denne nettsiden fra scratch selv med bruk av HTML/CSS, JS og Visual studio code.
         </p>
         <br>
@@ -173,8 +184,271 @@
 
     </div>
 
+    <!-- SECTION GAME DEVELOPMENT SELECTION -->
+
+    <div class="navbox_gamedev">
+      <img src="icons/game_dev_icon.png" alt="image of an image" id="GAMEDEV_ID" class="gamedev_logo">
+    </div>
+
+     <!-- SECTION GAMEDEV EXPLAIN BOX-->
+          <div class="flex01 background-color_gamedev01">
+            <div class="boxdiv_gamedev_container">
+              <article class="boxdiv_gamedev">
+                
+                <p class="gamedev_tekst02">Mine spill utvikling lidenskaper</p>
+                
+                <p class="gamedev_tekst01">
+                  Jeg har utviklet en rekke spill utvikling prosjekter, mye av dette er mods men også individe spill jeg har hatt en del i.
+                  <br>
+                  <br>
+                  Deathrun er et spillmodus der to team spiller mot hverander. Målet for team er å komme seg til slutten av brettet i live, mens et annet team prøver å stoppe dem. Dette kan de gjøre med å aktivere visse feller på brettet.
+                  <br>
+                  <br>
+                </p>
+      
+              </article>
+            </div>
+          
+          </div>
+
+          <div class="flex01 background-color_gamedev02">
+
+            <div class="gamedev_selection_window boxdiv_gamedev_container">
+
+              
+              <div class="boxdiv_gamedev_container_row">
+                <div class="gamedev_section_box_text01">MODDING</div>
+
+                <div class="boxdiv_gamedev_container">
+                  <button class="boxdiv_gamedev_dustgrowl" onclick="DisplayWork_Dustgrowl()" href="#DUSTGROWL_ID">
+                    <img src="images/dustgrowl_logo.png" class="gamedev_logo02">
+                  </button>
+                </div>
+
+              </div>
+
+              <div class="boxdiv_gamedev_container_row">
+                <div class="gamedev_section_box_text01">SPILL</div>
+
+                <div class="boxdiv_gamedev_container">
+                  <button class="boxdiv_gamedev_RD" onclick="DisplayWork_RnD()" href="#R&D_ID">
+                    <img src="icons/R&D_logo.png" class="gamedev_logo03">
+                  </button>
+                </div>
+                
+              </div>
+  
+
+            
+
+            </div>
+
+          </div>
+
+    <!-- SECTION R&D -->
+
+    <div id="TheDisplayer02" style="display: none;"> <!-- R&D DISPLAY NONE START -->
+      <div class="navbox_RD">
+          <img src="icons/R&D_logo.png" alt="image of an image" id="R&D_ID" class="RD_logo">
+      </div>
+  
+        <!-- SECTION R&D EXPLAIN BOX-->
+          <div class="flex01 background-color_RD02">
+            <div class="boxdiv_RD_container">
+              <article class="boxdiv_RD">
+                
+                <p class="RD_tekst02">En av mine lidenskaper -  Raskeladden og Dovreslubben</p>
+                
+                <p class="RD_tekst01">
+                  Raskeladden og Dovreslubben er et auto scroller mobil spill laget av Funksoft mellom November 2023 og Mars 2024.
+                  <br>
+                  <br>
+                  Spillet handler om at Dovreslubben hadde stjålet skiksene produktet til hovedselskapet til Funksoft fra hovdedkarakteren Raskeladden som mål i spillet er å gjennerobre skikene sine. Spillet kjører automatisk og hoved objektivet er å ungå feller på bakene.
+                  <br>
+                  <br>
+                </p>
+      
+              </article>
+            </div>
+          
+          </div>
+  
+      <!-- SLIDESHOW01 R&D -->
+  
+      <div class="flex01 background-color_RD01">
+  
+        <div class="slideshow-container_gameplay_RnD">
+  
+          <div class="mySlides_gameplay_RnD" style="display: block;">
+              <div class="imgpos01">
+                  <div class="numbertext_gameplay">1 / 3</div>
+                  <div class="RD_sl_margin">
+                    <img src="images/rNd_screenshot01.png" class="gameplay_slides">
+                  </div>
+  
+              </div>
+          
+          </div>
+          
+          <div class="mySlides_gameplay_RnD" style="display: none;">
+              <div class="imgpos01">
+              <div class="numbertext_gameplay">2 / 3</div>
+              <div class="RD_sl_margin">
+                <img src="images/rNd_screenshot02.png" class="gameplay_slides">
+              </div>
+  
+              </div>
+            
+          </div>
+          
+          <div class="mySlides_gameplay_RnD" style="display: none;">
+             <div class="imgpos01">
+            <div class="numbertext_gameplay">3 / 3</div>
+            <div class="RD_sl_margin">
+              <img src="images/rNd_screenshot03.png" class="gameplay_slides">
+            </div>
+  
+            </div>
+  
+          </div>        
+  
+          <a class="prev_gameplay_RnD" onclick="plusSlides_gameplay_RnD(-1)"> <img src="icons/alt_icon01_rotated.png" alt="" class="RD_buttons"></a>
+          <a class="next_gameplay_RnD" onclick="plusSlides_gameplay_RnD(1)"> <img src="icons/alt_icon01.png" alt="" class="RD_buttons"></a> 
+          
+          </div>
+          
+      </div>
+  
+            <!-- SECTION R&D EXPLAIN BOX 02-->
+            <div class="flex01 background-color_RD02">
+              <div class="boxdiv_RD_container">
+                <div class="boxdiv_RD">
+                  
+                  <p class="RD_tekst02">Delen jeg hadde i utvikling av Raskeladden og Dovreslubben</p>
+                  
+                  <p class="RD_tekst01">
+                    Jeg var Level Designer for spillet og laget spillets ene level samtidig som jeg var Konseptutvikler og Generel Utvikler. Spillet bruker Godot motoren, og samtidig brukte jeg også Godot til å utvikle den ene levelen med diverse type verktøy tiljengelig til å laste ned.
+                    <br>
+                    <br>
+                    Her er en liste over hva jeg hjalp og utvikle i spillet:
+                  </p>
+        
+                </div>
+              </div>
+            
+            </div>
+  
+  
+  
+    <!-- SLIDESHOW02 R&D -->
+  
+  <div class="container background-color_RD03">
+    <div class="mySlides_RnD" style="display: flex; justify-content: center;">
+      <div class="slideshow_image01">
+        <div class="numbertext02">1 / 6</div>
+      <img src="images/rNd_screenshot04.png" class="RD_slideshow_image">
+      </div>
+  
+    </div>
+  
+    <div class="mySlides_RnD" style="justify-content: center;">
+      <div class="slideshow_image01">
+        <div class="numbertext">2 / 6</div>
+        <img src="images/SmartShape2D.png" class="RD_slideshow_image">
+      </div>
+    </div>
+  
+    <div class="mySlides_RnD" style="justify-content: center;">
+      <div class="slideshow_image01">
+        <div class="numbertext">3 / 6</div>
+        <img src="images/rNd_screenshot06.png" class="RD_slideshow_image">
+      </div>
+  
+    </div>
+      
+    <div class="mySlides_RnD" style="justify-content: center;">
+      <div class="slideshow_image01">
+        <div class="numbertext02">4 / 6</div>
+        <img src="images/rNd_screenshot05.png" class="RD_slideshow_image">
+      </div>
+      
+    </div>
+  
+    <div class="mySlides_RnD" style="justify-content: center;">
+      <div class="slideshow_image01">
+        <div class="numbertext">5 / 6</div>
+        <img src="images/Github-logo-black.png" class="RD_slideshow_image">
+      </div>
+    
+    </div>
+      
+    <div class="mySlides_RnD" style="justify-content: center;">
+      <div class="slideshow_image01">
+        <div class="numbertext">6 / 6</div>
+      <img src="images/rNd_screenshot07.png" class="RD_slideshow_image">
+      </div>
+  
+    </div>
+      
+    <a class="prev_RnD" onclick="plusSlides_RnD(-1)"><img src="icons/alt_icon01_rotated.png" alt="" class="RD_button_size"></a>
+    <a class="next_RnD" onclick="plusSlides_RnD(1)"><img src="icons/alt_icon01.png" alt="" class="RD_button_size"></a>
+  
+    
+  
+    <div class="caption-container">
+      <p id="caption">Raskeladden og Dovreslubbens ene level ble utviklet inni godot motoren på under en uke. Det tok en dag og få det visualisert og en uke for å få det utviklet.</p>  <!-- CHANGE THIS WITH DEMO CURSORS AS THIS IS THE FIRST PEOPLE SEE --> 
+    </div>
+  
+    <div class="row background_general_gray">
+      <div class="column">
+        <img class="demo cursor" src="images/rNd_screenshot04.png" style="width:100%;" onclick="currentSlide_RnD(1)" alt="Raskeladden og Dovreslubbens ene level ble utviklet inni godot motoren på under en uke. Det tok en dag og få det visualisert og en uke for å få det utviklet.">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="images/SmartShape2D.png" style="width:100%" onclick="currentSlide_RnD(2)" alt="Orginal konseptet jeg skulle utvikle med var tile sets som indivuelt bruker points til å spesifisere level tiles. Jeg fant dette til å ta for lang tid, så jeg fant et mer effektivt værkøyet som het SmartShape2D som bruker illustrator points til å lage leveler.">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="images/rNd_screenshot06.png" style="width:100%" onclick="currentSlide_RnD(3)" alt="Orginalt skulle det utvikles 4 verdener med tre leveler hver, men dette ble kuttet på grunn av tid.">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="images/rNd_screenshot05.png" style="width:100%" onclick="currentSlide_RnD(4)" alt="Spillet konsept var orginalt noe jeg hjalp til å finne på da jeg samlet en gruppa av utviklerne en uke in i projektet samlet oss i rom der jeg pitchet en ide til spillet.">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="images/Github-logo-black.png" style="width:100%" onclick="currentSlide_RnD(5)" alt="Spilet var kordinert mellom alle utviklerne og art designerne i gruppa via Githuben til spillet. Det var påbudt at alle utviklere for koding og designing og vite Github og det var sånn jeg lærte det.">
+      </div>    
+      <div class="column">
+        <img class="demo cursor" src="images/rNd_screenshot07.png" style="width:100%" onclick="currentSlide_RnD(6)" alt="Jeg hadde flere roler en Level Utvikleren, det inkluderte også object plassering og designing. Mange av objektene som ses i spillet er lagd av meg.">
+      </div>
+  
+    </div>
+  
+  </div>
+  
+  
+    <!-- SECTION R&D PART 3-->
+    <div class="flex01 background-color_RD02">
+      <div class="boxdiv_RD_container">
+        <div class="boxdiv_RD">
+  
+          <p class="RD_tekst02">Hvor kan man spille Raskeladden og Dovreslubben?</p>
+  
+          <p class="RD_tekst01">
+            Raskeladden og Dovreslubben kan finnes på Github siden hvor spillet ble utviklet i gruppevis.
+            <br>
+            <a href="https://github.com/FunkWeb/spill6/releases/tag/v0.3.0-demo" class="linktext01 RD_tekst_longlink" target="_blank">https://github.com/FunkWeb/spill6/releases/tag/v0.3.0-demo</a>
+            <br>
+          </p>
+  
+        </div>
+      </div>
+    
+    </div>
+  
+  </div> <!-- R&D DISPLAY NONE END -->
+
+
     <!-- SECTION DUSTGROWl -->
 
+    <div id="TheDisplayer01" style="display: none;"> <!-- DUSTGROWL DISPLAY NONE START -->
     <div class="navbox_dustgrowl">
         <img src="images/dustgrowl_logo.png" alt="image of an image" id="DUSTGROWL_ID" class="dustgrowl_logo">
     </div>
@@ -187,7 +461,7 @@
               <p class="dustgrowl_tekst02">En av mine lidenskaper -  dr_dustgrowl</p>
               
               <p class="dustgrowl_tekst01">
-                Dustgrowl er et spillbrett som jeg har laget med Valve's verdensbygger "Hammer" for spillmodusen "Deathrun" i Team Fortress 2. Denne har  to spillbare nivåer, (forklare nivåene)
+                Dustgrowl er et spillbrett som jeg har laget med Valve's verdensbygger "Hammer" for spillmodusen "Deathrun" i Team Fortress 2.
                 <br>
                 <br>
                 Deathrun er et spillmodus der to team spiller mot hverander. Målet for team er å komme seg til slutten av brettet i live, mens et annet team prøver å stoppe dem. Dette kan de gjøre med å aktivere visse feller på brettet.
@@ -344,6 +618,7 @@
           </div>
 
 
+
   <!-- SLIDESHOW02 -->
 
 <div class="container background-color_dustgrowl03">
@@ -445,6 +720,8 @@
   
   </div>
 
+</div> <!-- DUSTGROWL DISPLAY NONE END -->
+
   <!-- SECTION BLENDER -->
 
   <div class="navbox_blender">
@@ -486,13 +763,13 @@
     
         <div class="blender_boxdiv_info">
   
-        <div class="blender_section_box_text01">TIDLIGERE JOBBER EVT ERFARING</div>
+        <div class="blender_section_box_text01">TIDLIGERE JOBBER</div>
   
           <div>
             <p class="blender_tekst01">
             <br>
-            Jeg har gått ….-linjen på Arbeiderbevegelsens Folkehøgskole.
-            Her lærte vi mye om …… På folkehøgskolen gjorde jeg blant annet et prosjekt som var starte på min interesse for modellering og erfaring med Blender.
+            Jeg har gått IT linjen på Arbeiderbevegelsens Folkehøgskole.
+            Her lærte vi mye om Webutvikling og databaser. På folkehøgskolen gjorde jeg blant annet et prosjekt som var å starte på min interesse for modellering og erfaring med Blender.
             <br>
             <br>
             En rekke av disse modellene ble laged, var simple modeller og figurer som kunne bevege seg.
@@ -575,7 +852,7 @@
               Jeg har utviklet disse modellene i Dustgrowls-stil og laget dem til en spesifikk konkret situasjon.
               <br>
               <br>
-              <a href="#DUSTGROWL_ID" class="topbutton01">DUSTGROWL</a>
+              <a href="#DUSTGROWL_ID" class="topbutton01" onclick="DisplayWork_Dustgrowl()">DUSTGROWL</a>
               </p>
               
             </div>
@@ -665,7 +942,7 @@
         <div class="boxdiv_video_container">
           <div class="boxdiv_video_text">
 
-            <p class="video_tekst02">Min erfaring med videoredigering/Videoredigering</p>
+            <p class="video_tekst02">Min erfaring med videoredigering</p>
 
             <p class="video_tekst01">
               Jeg har jobbet med videoredigering på videregående skole og på folkehøgskolen i tillegg til egne prosjekter.  
@@ -756,7 +1033,7 @@
             <p class="grapich_tekst02">Min erfaring med Hva av grafisk design</p>
 
             <p class="grapich_tekst01">
-              Jeg har jobbet mye med grafisk design på videregående og i egne prosjekter. Her er et utvalg av noe jeg har lagd.
+              Jeg har jobbet mye med grafisk design på videregående og i egne prosjekter. Her er et utvalg av noe jeg har lagd fra da jeg gikk på folkehøgskole.
               <br>
             </p>
 
@@ -768,38 +1045,18 @@
 
       <div class="grapich_background-color">
         <div class="flex05">
+
           <div class="boxdiv_grapich" style="margin-top: 50px;">
-              <img src="/images/grapich01.png" alt="" class="boxdiv_grapich_images">
+              <img src="/images/grapich08.png" alt="" class="boxdiv_grapich_images">
           </div>
+
           <div class="boxdiv_grapich" style="margin-top: 50px;">
             <img src="/images/grapich02.png" alt="" class="boxdiv_grapich_images">
-          </div>
-    
-          <div class="boxdiv_grapich" style="margin-top: 50px;">
-            <img src="/images/grapich03.png" alt="" class="boxdiv_grapich_images">
-          </div>
+        </div>
 
-          <div class="boxdiv_grapich">
-            <img src="/images/grapich04.png" alt="" class="boxdiv_grapich_images">
-          </div>
-          <div class="boxdiv_grapich">
-            <img src="/images/grapich05.png" alt="" class="boxdiv_grapich_images">
-          </div>
-    
-          <div class="boxdiv_grapich">
-            <img src="/images/grapich06.png" alt="" class="boxdiv_grapich_images">
-          </div>
-
-          <div class="boxdiv_grapich" style="margin-bottom: 50px;">
-            <img src="/images/grapich07.png" alt="" class="boxdiv_grapich_images">
-          </div>
-          <div class="boxdiv_grapich" style="margin-bottom: 50px;">
-            <img src="/images/grapich08.png" alt="" class="boxdiv_grapich_images">
-          </div>
-    
-          <div class="boxdiv_grapich" style="margin-bottom: 50px;">
-            <img src="/images/grapich09.png" alt="" class="boxdiv_grapich_images">
-          </div>
+        <div class="boxdiv_grapich" style="margin-top: 50px;">
+          <img src="/images/grapich03.png" alt="" class="boxdiv_grapich_images">
+      </div>
             
         </div>
         
@@ -810,8 +1067,8 @@
        <!-- SECTION LAST  -->
 
       <footer class="boxdiv_contact">
-        <a href="https://www.linkedin.com/in/jonathan-reppen-0915642a0/" target="_blank"><img src="icons/linkdin-custom-white-alt.png" alt="image of an image" class="contact-button01"></a>
-        <a href="" target="_blank"><img src="icons/mail-icon-white-alt.png" alt="image of an image" class="contact-button01"></a>
+        <a href="https://no.linkedin.com/in/jonathan-erik-reppen-0915642a0/en?trk=people-guest_people_search-card" target="_blank"><img src="icons/linkdin-custom-white-alt.png" alt="image of an image" class="contact-button01"></a>
+        <a href="mailto: jonathan.reppen@outlook.com" target="_blank"><img src="icons/mail-icon-white-alt.png" alt="image of an image" class="contact-button01"></a>
         <a href="https://github.com/JonathanPR-Github?tab=repositories" target="_blank"><img src="icons/github-logo-custom-white-alt.png" alt="image of an image" class="contact-button01""></a>
         <a href="https://www.youtube.com/@jonathnpr5934/videos" target="_blank"><img src="icons/youtube-icon-custom-white-alt.png" alt="image of an image" class="contact-button02"></a>
       </footer>

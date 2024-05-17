@@ -20,15 +20,44 @@
     width: 200px;
     height: 200px;
   }
-  
-  .nav_container_intro {
-    height: 500px;
-  }
 
   .nav-containter_intro_tekst {
     top: 17%;
     color: rgb(204, 169, 88);
   }
+
+  /* R&D */
+
+  .next_gameplay {
+    right: 0px;
+    border-radius: 3px 0 0 3px;
+  }
+
+  .prev_gameplay {
+  left: 0px;
+  border-radius: 3px 0 0 3px;
+  }
+
+  .next_RnD {
+  right: 0px;
+  }
+
+  .prev_RnD {
+  left: 0px;
+  }
+
+  .prev_RnD, .next_RnD {
+  top: 35%;
+  }
+
+  .row_RnD{
+    display: none;
+  }
+  
+  .boxdiv_dustgrowl {
+    width: auto;
+    height: auto;
+   }
 
   /* DUSTGROWL */
 

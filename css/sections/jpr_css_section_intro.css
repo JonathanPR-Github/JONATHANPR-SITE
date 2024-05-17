@@ -203,7 +203,7 @@
     border-radius: 50px;
 
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 80px;
     
     padding: 20px;
     box-shadow: rgb(0, 0, 0) 10px 10px 20px 0px;
@@ -296,5 +296,18 @@
 }
 
 .linktext01{
-  color: black;
+  color: #383735;
+}
+
+.info_box_text01 {
+  border-style: solid;
+  border-color: white;
+  background-color: #383735;
+
+  padding: 20px;
+
+  border: solid;
+  border-color: white;
+  border-width: 5px;
+  border-radius: 20px;
 }

@@ -5,4 +5,16 @@
         margin-right: 10px;
     }
 
+      /* GAMEDEV */
+
+  .gamedev_logo02 {
+    height:  110px;
+    width: 256px;
+  }
+
+  .gamedev_logo03 {
+    height:  170px;
+    width: 170px;
+  }
+
 }
